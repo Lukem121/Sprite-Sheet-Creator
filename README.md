@@ -1,7 +1,7 @@
 # Sprite Sheet Creator
 
 ### Download
-Click relese near top of page for latest download.
+Click release near top of page for latest download.
 
 ### How to use
 Run the program and click add images. These images will be added to the sprite sheet. When done click save image and select a save location. 
