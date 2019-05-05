@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.geometry.Insets?>
 <?import javafx.scene.canvas.Canvas?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.ComboBox?>
@@ -15,15 +16,512 @@
       <Pane layoutX="14.0" layoutY="14.0" prefHeight="640.0" prefWidth="640.0" styleClass="canvas" stylesheets="@stylesheet.css">
          <children>
             <Canvas fx:id="displayCanvas" height="640.0" width="640.0" />
+            <Button fx:id="B1" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="1" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="B2" layoutX="64.0" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="2" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="B3" layoutX="128.0" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="3" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="B4" layoutX="192.0" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="4" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="B5" layoutX="256.0" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="5" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="B6" layoutX="320.0" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="6" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="B7" layoutX="384.0" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="7" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="B8" layoutX="448.0" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="8" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="B9" layoutX="512.0" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="9" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="B10" layoutX="576.0" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="10" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="B11" layoutY="64.0" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="11" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="B12" layoutX="64.0" layoutY="64.0" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="12" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="B13" layoutX="128.0" layoutY="64.0" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="13" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="B14" layoutX="192.0" layoutY="64.0" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="14" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="B15" layoutX="256.0" layoutY="64.0" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="15" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="B16" layoutX="320.0" layoutY="64.0" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="16" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="B17" layoutX="384.0" layoutY="64.0" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="17" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="B18" layoutX="448.0" layoutY="64.0" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="18" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="B19" layoutX="512.0" layoutY="64.0" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="19" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="B20" layoutX="576.0" layoutY="64.0" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="20" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="B21" layoutY="128.0" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="21" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="B22" layoutX="64.0" layoutY="128.0" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="22" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="B23" layoutX="128.0" layoutY="128.0" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="23" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="B24" layoutX="192.0" layoutY="128.0" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="24" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="B25" layoutX="256.0" layoutY="128.0" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="25" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="B26" layoutX="320.0" layoutY="128.0" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="26" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="B27" layoutX="384.0" layoutY="128.0" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="27" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="B28" layoutX="448.0" layoutY="128.0" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="28" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="B29" layoutX="512.0" layoutY="128.0" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="29" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="B30" layoutX="576.0" layoutY="128.0" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="30" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="B31" layoutY="192.0" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="31" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="B32" layoutX="64.0" layoutY="192.0" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="32" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="B33" layoutX="128.0" layoutY="192.0" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="33" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="B34" layoutX="192.0" layoutY="192.0" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="34" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="B35" layoutX="256.0" layoutY="192.0" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="35" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="B36" layoutX="320.0" layoutY="192.0" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="36" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="B37" layoutX="384.0" layoutY="192.0" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="37" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="B38" layoutX="448.0" layoutY="192.0" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="38" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="B39" layoutX="512.0" layoutY="192.0" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="39" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="B40" layoutX="576.0" layoutY="192.0" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="40" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="B41" layoutY="256.0" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="41" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="B42" layoutX="64.0" layoutY="256.0" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="42" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="B43" layoutX="128.0" layoutY="256.0" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="43" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="B44" layoutX="192.0" layoutY="256.0" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="44" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="B45" layoutX="256.0" layoutY="256.0" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="45" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="B46" layoutX="320.0" layoutY="256.0" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="46" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="B47" layoutX="384.0" layoutY="256.0" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="47" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="B48" layoutX="448.0" layoutY="256.0" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="48" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="B49" layoutX="512.0" layoutY="256.0" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="49" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="B50" layoutX="576.0" layoutY="256.0" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="50" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="B51" layoutY="320.0" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="51" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="B52" layoutX="64.0" layoutY="320.0" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="52" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="B53" layoutX="128.0" layoutY="320.0" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="53" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="B54" layoutX="192.0" layoutY="320.0" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="54" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="B55" layoutX="256.0" layoutY="320.0" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="55" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="B56" layoutX="320.0" layoutY="320.0" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="56" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="B57" layoutX="384.0" layoutY="320.0" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="57" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="B58" layoutX="448.0" layoutY="320.0" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="58" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="B59" layoutX="512.0" layoutY="320.0" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="59" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="60" layoutX="576.0" layoutY="320.0" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="60" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="B61" layoutY="384.0" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="61" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="B62" layoutX="64.0" layoutY="384.0" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="62" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="B63" layoutX="128.0" layoutY="384.0" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="63" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="B64" layoutX="192.0" layoutY="384.0" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="64" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="B65" layoutX="256.0" layoutY="384.0" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="65" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="B66" layoutX="320.0" layoutY="384.0" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="66" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="B67" layoutX="384.0" layoutY="384.0" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="67" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="B68" layoutX="448.0" layoutY="384.0" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="68" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="B69" layoutX="512.0" layoutY="384.0" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="69" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="B70" layoutX="576.0" layoutY="384.0" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="70" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="B71" layoutY="448.0" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="71" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="B72" layoutX="64.0" layoutY="448.0" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="72" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="B73" layoutX="128.0" layoutY="448.0" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="73" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="B74" layoutX="192.0" layoutY="448.0" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="74" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="B75" layoutX="256.0" layoutY="448.0" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="75" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="B76" layoutX="320.0" layoutY="448.0" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="76" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="B77" layoutX="384.0" layoutY="448.0" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="77" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="B78" layoutX="448.0" layoutY="448.0" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="78" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="B79" layoutX="512.0" layoutY="448.0" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="79" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="B80" layoutX="576.0" layoutY="448.0" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="80" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="B81" layoutY="512.0" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="81" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="B82" layoutX="64.0" layoutY="512.0" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="82" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="B83" layoutX="128.0" layoutY="512.0" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="83" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="B84" layoutX="192.0" layoutY="512.0" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="84" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="B86" layoutX="320.0" layoutY="512.0" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="86" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="B87" layoutX="384.0" layoutY="512.0" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="87" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="B88" layoutX="448.0" layoutY="512.0" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="88" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="B89" layoutX="512.0" layoutY="512.0" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="89" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="B90" layoutX="576.0" layoutY="512.0" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="90" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="B91" layoutY="576.0" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="91" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="B92" layoutX="64.0" layoutY="576.0" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="92" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="B93" layoutX="128.0" layoutY="576.0" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="93" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="B94" layoutX="192.0" layoutY="576.0" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="94" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="B95" layoutX="256.0" layoutY="576.0" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="95" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="B96" layoutX="320.0" layoutY="576.0" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="96" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="B97" layoutX="384.0" layoutY="576.0" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="97" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="B98" layoutX="448.0" layoutY="576.0" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="98" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="B99" layoutX="512.0" layoutY="576.0" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="99" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="B100" layoutX="576.0" layoutY="576.0" mnemonicParsing="false" onAction="#swapImages" prefHeight="64.0" prefWidth="64.0" styleClass="gridButton" stylesheets="@stylesheet.css" text="100" textFill="TRANSPARENT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
          </children>
       </Pane>
       <Label layoutX="14.0" layoutY="690.0" text="Save Resolution" />
       <Button layoutX="355.0" layoutY="685.0" mnemonicParsing="false" onAction="#clearImages" text="Clear Images" />
-      <AnchorPane layoutX="-877.0" layoutY="14.0" prefHeight="657.0" prefWidth="721.0">
+      <AnchorPane layoutX="-840.0" layoutY="14.0" prefHeight="657.0" prefWidth="721.0">
          <children>
             <Canvas fx:id="hiddenCanvas" height="640.0" visible="false" width="640.0" />
             <Canvas id=".canvas" fx:id="workCanvas" height="640.0" styleClass="stylesheet.css" visible="false" width="640.0" />
          </children>
       </AnchorPane>
+      <Button fx:id="FF" layoutX="-222.0" layoutY="695.0" mnemonicParsing="false" text="Button" />
+      <Button fx:id="swapButton" layoutX="254.0" layoutY="685.0" mnemonicParsing="false" onAction="#swapButtonAction" text="Swap Images" />
    </children>
 </AnchorPane>

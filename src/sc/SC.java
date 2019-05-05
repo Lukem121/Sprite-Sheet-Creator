@@ -38,6 +38,9 @@ public class SC extends Application {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        for(int i = 0; i < 101; i++){
+            System.err.print(i+", ");
+        }
         launch(args);
     }
     
