@@ -94,6 +94,7 @@ public class FXMLDocumentController implements Initializable {
     }
 
     private void draw() {
+        displayGC.clearRect(0, 0, 128*10, 128*10);
         Image displayImage = createImage(128, true);
         displayGC.drawImage(displayImage, 0, 0);
     }
